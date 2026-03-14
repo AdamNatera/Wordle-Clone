@@ -1,5 +1,7 @@
 def main():
     # initialize game
+    # Gay bois coding army
+    # Make a function broooooo this is bad
     game_over = False
     wordle = "boner"
     max_guesses = 6
@@ -7,6 +9,8 @@ def main():
 
     # game loop
     while not game_over:
+        # draw board
+        # Put this in a function -DWS draw game function
         print("""
 +---+---+---+---+---+
 |   |   |   |   |   |
@@ -21,6 +25,11 @@ def main():
 +---+---+---+---+---+
 |   |   |   |   |   |
 +---+---+---+---+---+""")
+        
+        # user input
+        # Put this in a function -DWS
+        # Input validation is weak no checks for numbers or symbols -DWS
+        # Put this into one function for input validaiton, one for a check against the solution word, and another for updating game state
         guess_valid = False
     
         while not guess_valid:
@@ -36,6 +45,9 @@ def main():
                 
             break
 
+        # evaluate guess
+        # Make another function -DWS
+        
     
     
 
